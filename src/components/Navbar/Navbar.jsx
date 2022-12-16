@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import "./Navbar.scss";
 
-const logo = "/public/svg/logo.png";
+import logo from "/src/assets/svg/logo.png";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
